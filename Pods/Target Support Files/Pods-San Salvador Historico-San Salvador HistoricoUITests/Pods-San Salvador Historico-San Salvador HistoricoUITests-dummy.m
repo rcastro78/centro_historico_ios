@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests
+@end

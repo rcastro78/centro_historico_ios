@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBC77027C3EE1D5A1C1B57B /* Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A36FD72B5721B07E7C02B2 /* Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests.framework */; };
+		4880EBD607F8F029290F26A2 /* Pods_San_Salvador_HistoricoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607D4E2D9CCDB053DB46057E /* Pods_San_Salvador_HistoricoTests.framework */; };
 		5398B18A2581BAD000F1AD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B1892581BAD000F1AD4D /* AppDelegate.swift */; };
 		5398B18C2581BAD000F1AD4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B18B2581BAD000F1AD4D /* SceneDelegate.swift */; };
 		5398B18E2581BAD000F1AD4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B18D2581BAD000F1AD4D /* ViewController.swift */; };
@@ -15,6 +17,58 @@
 		5398B1962581BAFE00F1AD4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5398B1942581BAFE00F1AD4D /* LaunchScreen.storyboard */; };
 		5398B1A12581BB0100F1AD4D /* San_Salvador_HistoricoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B1A02581BB0100F1AD4D /* San_Salvador_HistoricoTests.swift */; };
 		5398B1AC2581BB0100F1AD4D /* San_Salvador_HistoricoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5398B1AB2581BB0100F1AD4D /* San_Salvador_HistoricoUITests.swift */; };
+		C806F31625FB0F580081A23C /* NotificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806F31525FB0F580081A23C /* NotificacionesViewController.swift */; };
+		C806F31B25FB0F7A0081A23C /* NotificacionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806F31A25FB0F7A0081A23C /* NotificacionTableViewCell.swift */; };
+		C806F32025FB14620081A23C /* Notificacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806F31F25FB14620081A23C /* Notificacion.swift */; };
+		C8111ABF25F349FA00925CB7 /* Recorrido360ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8111ABE25F349FA00925CB7 /* Recorrido360ViewController.swift */; };
+		C8111AC725F34A8300925CB7 /* Recorrido360TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8111AC625F34A8300925CB7 /* Recorrido360TableViewCell.swift */; };
+		C8111AC925F34BA200925CB7 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8111AC825F34BA200925CB7 /* Video.swift */; };
+		C8111AD225F3532900925CB7 /* calendar.json in Resources */ = {isa = PBXBuildFile; fileRef = C8111ACF25F352B600925CB7 /* calendar.json */; };
+		C8111AD325F3532900925CB7 /* recorrido360.json in Resources */ = {isa = PBXBuildFile; fileRef = C8111AD025F3531C00925CB7 /* recorrido360.json */; };
+		C8111AD425F3532900925CB7 /* marker.json in Resources */ = {isa = PBXBuildFile; fileRef = C8111AD125F3532900925CB7 /* marker.json */; };
+		C81D4DE726CE1BAB000E813F /* IniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81D4DE626CE1BAA000E813F /* IniciarSesionViewController.swift */; };
+		C81D4DEF26CE2379000E813F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81D4DEE26CE2379000E813F /* LoginViewController.swift */; };
+		C842ED1725BFAA1B00233211 /* LanguageSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C842ED1625BFAA1B00233211 /* LanguageSystem.swift */; };
+		C842ED1C25BFB70B00233211 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C842ED1B25BFB70B00233211 /* RegistroViewController.swift */; };
+		C8470BAB25BBC0E900AC626A /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA125BBC0E700AC626A /* OpenSans-Bold.ttf */; };
+		C8470BAC25BBC0E900AC626A /* Nexa Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA225BBC0E700AC626A /* Nexa Bold.otf */; };
+		C8470BAD25BBC0E900AC626A /* Nexa Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA325BBC0E700AC626A /* Nexa Light.otf */; };
+		C8470BAE25BBC0E900AC626A /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA425BBC0E800AC626A /* MontserratAlternates-Regular.otf */; };
+		C8470BAF25BBC0E900AC626A /* Nexa Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA525BBC0E800AC626A /* Nexa Regular.otf */; };
+		C8470BB025BBC0E900AC626A /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA625BBC0E800AC626A /* OpenSans-SemiboldItalic.ttf */; };
+		C8470BB125BBC0E900AC626A /* MyriadPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA725BBC0E800AC626A /* MyriadPro-Regular.otf */; };
+		C8470BB225BBC0E900AC626A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA825BBC0E900AC626A /* OpenSans-Regular.ttf */; };
+		C8470BB325BBC0E900AC626A /* Polly-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BA925BBC0E900AC626A /* Polly-Regular.otf */; };
+		C8470BB425BBC0E900AC626A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8470BAA25BBC0E900AC626A /* OpenSans-Light.ttf */; };
+		C8470BB925BBC43A00AC626A /* SSHistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8470BB825BBC43A00AC626A /* SSHistoricoViewController.swift */; };
+		C86B828425F81B4F00C9A00A /* MisRecorridosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B828325F81B4D00C9A00A /* MisRecorridosViewController.swift */; };
+		C86B828B25F81C0900C9A00A /* MiRecorrido.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B828A25F81C0900C9A00A /* MiRecorrido.swift */; };
+		C86B829025F81F5100C9A00A /* MisRecorridosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B828F25F81F5100C9A00A /* MisRecorridosCollectionViewCell.swift */; };
+		C86B829525F83E9A00C9A00A /* MenuPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B829425F83E9A00C9A00A /* MenuPerfil.swift */; };
+		C86B829A25F8400000C9A00A /* PerfilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B829925F8400000C9A00A /* PerfilTableViewCell.swift */; };
+		C86B82A325F875D600C9A00A /* DatosPersonalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B82A225F875D600C9A00A /* DatosPersonalesViewController.swift */; };
+		C86B82A825F87EAF00C9A00A /* TermServViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86B82A725F87EAF00C9A00A /* TermServViewController.swift */; };
+		C8718D6F25FD41AE0056D3FC /* MisRecorridosDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8718D6E25FD41AE0056D3FC /* MisRecorridosDetalleViewController.swift */; };
+		C8718D7425FD42400056D3FC /* MisRecorridosDetalleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8718D7325FD42400056D3FC /* MisRecorridosDetalleTableViewCell.swift */; };
+		C874BBE225FFDAD600BB0811 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C874BBE125FFDAD400BB0811 /* GoogleService-Info.plist */; };
+		C878541A25FC6F24008F2246 /* WebRecorridoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878541925FC6F24008F2246 /* WebRecorridoViewController.swift */; };
+		C878542325FC7DDB008F2246 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C878542225FC7DC2008F2246 /* libsqlite3.tbd */; };
+		C87C1A6425F095EA00315BED /* Lugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C1A6325F095EA00315BED /* Lugar.swift */; };
+		C87C1A6925F0972E00315BED /* Categoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C1A6825F0972E00315BED /* Categoria.swift */; };
+		C87C1A6E25F09A3E00315BED /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87C1A6D25F09A3E00315BED /* Constantes.swift */; };
+		C886631825AAA4930055F396 /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886631725AAA4930055F396 /* MenuPrincipal.swift */; };
+		C886631D25AAA58B0055F396 /* MenuPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886631C25AAA58B0055F396 /* MenuPrincipalViewController.swift */; };
+		C886632225AAAA7C0055F396 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886632125AAAA7C0055F396 /* MenuCollectionViewCell.swift */; };
+		C89B86BE2605AAC600D24389 /* EmpezarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89B86BD2605AAC600D24389 /* EmpezarViewController.swift */; };
+		C89F324A25EF3D61002F6B73 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89F324925EF3D61002F6B73 /* MapViewController.swift */; };
+		C8B6383A25F723AA00255568 /* DetalleLugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B6383925F723AA00255568 /* DetalleLugarViewController.swift */; };
+		C8D0BF5925F4510A0006A9D9 /* EventosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0BF5825F4510A0006A9D9 /* EventosViewController.swift */; };
+		C8D0BF5E25F451B80006A9D9 /* EventoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0BF5D25F451B80006A9D9 /* EventoTableViewCell.swift */; };
+		C8D0BF6325F452590006A9D9 /* Evento.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0BF6225F452590006A9D9 /* Evento.swift */; };
+		C8D0BF6825F462040006A9D9 /* EventoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D0BF6725F462030006A9D9 /* EventoViewController.swift */; };
+		C8EA37D325F1F68F00B94333 /* LugaresCategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EA37D225F1F68E00B94333 /* LugaresCategoria.swift */; };
+		C8F7E07A25E5FC8B00BF9A45 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F7E07925E5FC8B00BF9A45 /* PerfilViewController.swift */; };
+		CDE036B169CA1DC62372464E /* Pods_San_Salvador_Historico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C529DFE9F047A78BA7F8F7AF /* Pods_San_Salvador_Historico.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +89,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02E520FB1A0B1687DCE17D2D /* Pods-San Salvador HistoricoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-San Salvador HistoricoTests.release.xcconfig"; path = "Target Support Files/Pods-San Salvador HistoricoTests/Pods-San Salvador HistoricoTests.release.xcconfig"; sourceTree = "<group>"; };
+		525BA8F4DCC8D5D2A9677341 /* Pods-San Salvador Historico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-San Salvador Historico.debug.xcconfig"; path = "Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico.debug.xcconfig"; sourceTree = "<group>"; };
 		5398B1862581BAD000F1AD4D /* San Salvador Historico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "San Salvador Historico.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398B1892581BAD000F1AD4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5398B18B2581BAD000F1AD4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,13 +98,72 @@
 		5398B1902581BAD100F1AD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5398B1922581BAFD00F1AD4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5398B1952581BAFE00F1AD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5398B1972581BAFE00F1AD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5398B19C2581BB0100F1AD4D /* San Salvador HistoricoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "San Salvador HistoricoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398B1A02581BB0100F1AD4D /* San_Salvador_HistoricoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = San_Salvador_HistoricoTests.swift; sourceTree = "<group>"; };
 		5398B1A22581BB0100F1AD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5398B1A72581BB0100F1AD4D /* San Salvador HistoricoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "San Salvador HistoricoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5398B1AB2581BB0100F1AD4D /* San_Salvador_HistoricoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = San_Salvador_HistoricoUITests.swift; sourceTree = "<group>"; };
 		5398B1AD2581BB0100F1AD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607D4E2D9CCDB053DB46057E /* Pods_San_Salvador_HistoricoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_San_Salvador_HistoricoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A89C1FFDFAB1A5A0F752FC /* Pods-San Salvador Historico-San Salvador HistoricoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-San Salvador Historico-San Salvador HistoricoUITests.release.xcconfig"; path = "Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2A36FD72B5721B07E7C02B2 /* Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4C2C78F0706B2D85A17CF6 /* Pods-San Salvador Historico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-San Salvador Historico.release.xcconfig"; path = "Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico.release.xcconfig"; sourceTree = "<group>"; };
+		BDFAEF98725BFD095578ABA2 /* Pods-San Salvador Historico-San Salvador HistoricoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-San Salvador Historico-San Salvador HistoricoUITests.debug.xcconfig"; path = "Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C529DFE9F047A78BA7F8F7AF /* Pods_San_Salvador_Historico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_San_Salvador_Historico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C806F31525FB0F580081A23C /* NotificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificacionesViewController.swift; path = "San Salvador Historico/NotificacionesViewController.swift"; sourceTree = SOURCE_ROOT; };
+		C806F31A25FB0F7A0081A23C /* NotificacionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionTableViewCell.swift; sourceTree = "<group>"; };
+		C806F31F25FB14620081A23C /* Notificacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notificacion.swift; sourceTree = "<group>"; };
+		C8111ABE25F349FA00925CB7 /* Recorrido360ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorrido360ViewController.swift; sourceTree = "<group>"; };
+		C8111AC625F34A8300925CB7 /* Recorrido360TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorrido360TableViewCell.swift; sourceTree = "<group>"; };
+		C8111AC825F34BA200925CB7 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		C8111ACF25F352B600925CB7 /* calendar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = calendar.json; sourceTree = "<group>"; };
+		C8111AD025F3531C00925CB7 /* recorrido360.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recorrido360.json; sourceTree = "<group>"; };
+		C8111AD125F3532900925CB7 /* marker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = marker.json; sourceTree = "<group>"; };
+		C81D4DE626CE1BAA000E813F /* IniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniciarSesionViewController.swift; sourceTree = "<group>"; };
+		C81D4DEE26CE2379000E813F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C842ED1625BFAA1B00233211 /* LanguageSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSystem.swift; sourceTree = "<group>"; };
+		C842ED1B25BFB70B00233211 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		C8470BA125BBC0E700AC626A /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		C8470BA225BBC0E700AC626A /* Nexa Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Bold.otf"; sourceTree = "<group>"; };
+		C8470BA325BBC0E700AC626A /* Nexa Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Light.otf"; sourceTree = "<group>"; };
+		C8470BA425BBC0E800AC626A /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		C8470BA525BBC0E800AC626A /* Nexa Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nexa Regular.otf"; sourceTree = "<group>"; };
+		C8470BA625BBC0E800AC626A /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		C8470BA725BBC0E800AC626A /* MyriadPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.otf"; sourceTree = "<group>"; };
+		C8470BA825BBC0E900AC626A /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		C8470BA925BBC0E900AC626A /* Polly-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Polly-Regular.otf"; sourceTree = "<group>"; };
+		C8470BAA25BBC0E900AC626A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		C8470BB825BBC43A00AC626A /* SSHistoricoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHistoricoViewController.swift; sourceTree = "<group>"; };
+		C86B828325F81B4D00C9A00A /* MisRecorridosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRecorridosViewController.swift; sourceTree = "<group>"; };
+		C86B828A25F81C0900C9A00A /* MiRecorrido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiRecorrido.swift; sourceTree = "<group>"; };
+		C86B828F25F81F5100C9A00A /* MisRecorridosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRecorridosCollectionViewCell.swift; sourceTree = "<group>"; };
+		C86B829425F83E9A00C9A00A /* MenuPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPerfil.swift; sourceTree = "<group>"; };
+		C86B829925F8400000C9A00A /* PerfilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilTableViewCell.swift; sourceTree = "<group>"; };
+		C86B82A225F875D600C9A00A /* DatosPersonalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosPersonalesViewController.swift; sourceTree = "<group>"; };
+		C86B82A725F87EAF00C9A00A /* TermServViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermServViewController.swift; sourceTree = "<group>"; };
+		C8718D6E25FD41AE0056D3FC /* MisRecorridosDetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRecorridosDetalleViewController.swift; sourceTree = "<group>"; };
+		C8718D7325FD42400056D3FC /* MisRecorridosDetalleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRecorridosDetalleTableViewCell.swift; sourceTree = "<group>"; };
+		C874BBDC25FFDAA900BB0811 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C874BBE125FFDAD400BB0811 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C878541925FC6F24008F2246 /* WebRecorridoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRecorridoViewController.swift; sourceTree = "<group>"; };
+		C878541E25FC771B008F2246 /* San Salvador Historico.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "San Salvador Historico.entitlements"; sourceTree = "<group>"; };
+		C878542225FC7DC2008F2246 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C87C1A6325F095EA00315BED /* Lugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugar.swift; sourceTree = "<group>"; };
+		C87C1A6825F0972E00315BED /* Categoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoria.swift; sourceTree = "<group>"; };
+		C87C1A6D25F09A3E00315BED /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		C886631725AAA4930055F396 /* MenuPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
+		C886631C25AAA58B0055F396 /* MenuPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipalViewController.swift; sourceTree = "<group>"; };
+		C886632125AAAA7C0055F396 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		C89B86BD2605AAC600D24389 /* EmpezarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpezarViewController.swift; sourceTree = "<group>"; };
+		C89F324925EF3D61002F6B73 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C8B6383925F723AA00255568 /* DetalleLugarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleLugarViewController.swift; sourceTree = "<group>"; };
+		C8D0BF5825F4510A0006A9D9 /* EventosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventosViewController.swift; sourceTree = "<group>"; };
+		C8D0BF5D25F451B80006A9D9 /* EventoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventoTableViewCell.swift; sourceTree = "<group>"; };
+		C8D0BF6225F452590006A9D9 /* Evento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evento.swift; sourceTree = "<group>"; };
+		C8D0BF6725F462030006A9D9 /* EventoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventoViewController.swift; sourceTree = "<group>"; };
+		C8EA37D225F1F68E00B94333 /* LugaresCategoria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugaresCategoria.swift; sourceTree = "<group>"; };
+		C8F7E07925E5FC8B00BF9A45 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		FBD4E6B11EEA43DB6D1FBF38 /* Pods-San Salvador HistoricoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-San Salvador HistoricoTests.debug.xcconfig"; path = "Target Support Files/Pods-San Salvador HistoricoTests/Pods-San Salvador HistoricoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +171,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C878542325FC7DDB008F2246 /* libsqlite3.tbd in Frameworks */,
+				CDE036B169CA1DC62372464E /* Pods_San_Salvador_Historico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4880EBD607F8F029290F26A2 /* Pods_San_Salvador_HistoricoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +188,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBC77027C3EE1D5A1C1B57B /* Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		156CFDD64F234214EFE2159E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C878542225FC7DC2008F2246 /* libsqlite3.tbd */,
+				C529DFE9F047A78BA7F8F7AF /* Pods_San_Salvador_Historico.framework */,
+				A2A36FD72B5721B07E7C02B2 /* Pods_San_Salvador_Historico_San_Salvador_HistoricoUITests.framework */,
+				607D4E2D9CCDB053DB46057E /* Pods_San_Salvador_HistoricoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5398B17D2581BAD000F1AD4D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +213,8 @@
 				5398B19F2581BB0100F1AD4D /* San Salvador HistoricoTests */,
 				5398B1AA2581BB0100F1AD4D /* San Salvador HistoricoUITests */,
 				5398B1872581BAD000F1AD4D /* Products */,
+				E9067E495B237DC3F91A3AD5 /* Pods */,
+				156CFDD64F234214EFE2159E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +231,36 @@
 		5398B1882581BAD000F1AD4D /* San Salvador Historico */ = {
 			isa = PBXGroup;
 			children = (
+				C878541E25FC771B008F2246 /* San Salvador Historico.entitlements */,
+				C806F30E25FB0EEC0081A23C /* Notificaciones */,
+				C86B829E25F8755700C9A00A /* DatosPersonales */,
+				C8B6383225F7224400255568 /* Lugares */,
+				C8D0BF5425F4503B0006A9D9 /* Eventos */,
+				C8111ACE25F34FE300925CB7 /* animaciones */,
+				C8111ACD25F34FD400925CB7 /* MisRecorridos */,
+				C8111ABD25F3497C00925CB7 /* Recorridos */,
+				C8F7E07525E5FBFB00BF9A45 /* Perfil */,
+				C8470BA025BBC0C200AC626A /* fonts */,
+				C886631325AAA2FC0055F396 /* modelos */,
 				5398B1892581BAD000F1AD4D /* AppDelegate.swift */,
 				5398B18B2581BAD000F1AD4D /* SceneDelegate.swift */,
+				C874BBE125FFDAD400BB0811 /* GoogleService-Info.plist */,
+				C874BBDC25FFDAA900BB0811 /* Info.plist */,
 				5398B18D2581BAD000F1AD4D /* ViewController.swift */,
 				5398B18F2581BAD100F1AD4D /* Main.storyboard */,
 				5398B1922581BAFD00F1AD4D /* Assets.xcassets */,
 				5398B1942581BAFE00F1AD4D /* LaunchScreen.storyboard */,
-				5398B1972581BAFE00F1AD4D /* Info.plist */,
+				C886631C25AAA58B0055F396 /* MenuPrincipalViewController.swift */,
+				C886632125AAAA7C0055F396 /* MenuCollectionViewCell.swift */,
+				C8470BB825BBC43A00AC626A /* SSHistoricoViewController.swift */,
+				C842ED1625BFAA1B00233211 /* LanguageSystem.swift */,
+				C842ED1B25BFB70B00233211 /* RegistroViewController.swift */,
+				C89F324925EF3D61002F6B73 /* MapViewController.swift */,
+				C87C1A6D25F09A3E00315BED /* Constantes.swift */,
+				C86B82A725F87EAF00C9A00A /* TermServViewController.swift */,
+				C89B86BD2605AAC600D24389 /* EmpezarViewController.swift */,
+				C81D4DE626CE1BAA000E813F /* IniciarSesionViewController.swift */,
+				C81D4DEE26CE2379000E813F /* LoginViewController.swift */,
 			);
 			path = "San Salvador Historico";
 			sourceTree = "<group>";
@@ -128,6 +283,129 @@
 			path = "San Salvador HistoricoUITests";
 			sourceTree = "<group>";
 		};
+		C806F30E25FB0EEC0081A23C /* Notificaciones */ = {
+			isa = PBXGroup;
+			children = (
+				C806F31525FB0F580081A23C /* NotificacionesViewController.swift */,
+				C806F31A25FB0F7A0081A23C /* NotificacionTableViewCell.swift */,
+			);
+			path = Notificaciones;
+			sourceTree = "<group>";
+		};
+		C8111ABD25F3497C00925CB7 /* Recorridos */ = {
+			isa = PBXGroup;
+			children = (
+				C8111ABE25F349FA00925CB7 /* Recorrido360ViewController.swift */,
+				C8111AC625F34A8300925CB7 /* Recorrido360TableViewCell.swift */,
+				C878541925FC6F24008F2246 /* WebRecorridoViewController.swift */,
+			);
+			path = Recorridos;
+			sourceTree = "<group>";
+		};
+		C8111ACD25F34FD400925CB7 /* MisRecorridos */ = {
+			isa = PBXGroup;
+			children = (
+				C86B828325F81B4D00C9A00A /* MisRecorridosViewController.swift */,
+				C86B828F25F81F5100C9A00A /* MisRecorridosCollectionViewCell.swift */,
+				C8718D6E25FD41AE0056D3FC /* MisRecorridosDetalleViewController.swift */,
+				C8718D7325FD42400056D3FC /* MisRecorridosDetalleTableViewCell.swift */,
+			);
+			path = MisRecorridos;
+			sourceTree = "<group>";
+		};
+		C8111ACE25F34FE300925CB7 /* animaciones */ = {
+			isa = PBXGroup;
+			children = (
+				C8111ACF25F352B600925CB7 /* calendar.json */,
+				C8111AD125F3532900925CB7 /* marker.json */,
+				C8111AD025F3531C00925CB7 /* recorrido360.json */,
+			);
+			name = animaciones;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		C8470BA025BBC0C200AC626A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C8470BA425BBC0E800AC626A /* MontserratAlternates-Regular.otf */,
+				C8470BA725BBC0E800AC626A /* MyriadPro-Regular.otf */,
+				C8470BA225BBC0E700AC626A /* Nexa Bold.otf */,
+				C8470BA325BBC0E700AC626A /* Nexa Light.otf */,
+				C8470BA525BBC0E800AC626A /* Nexa Regular.otf */,
+				C8470BA125BBC0E700AC626A /* OpenSans-Bold.ttf */,
+				C8470BAA25BBC0E900AC626A /* OpenSans-Light.ttf */,
+				C8470BA825BBC0E900AC626A /* OpenSans-Regular.ttf */,
+				C8470BA625BBC0E800AC626A /* OpenSans-SemiboldItalic.ttf */,
+				C8470BA925BBC0E900AC626A /* Polly-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		C86B829E25F8755700C9A00A /* DatosPersonales */ = {
+			isa = PBXGroup;
+			children = (
+				C86B82A225F875D600C9A00A /* DatosPersonalesViewController.swift */,
+			);
+			path = DatosPersonales;
+			sourceTree = "<group>";
+		};
+		C886631325AAA2FC0055F396 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				C886631725AAA4930055F396 /* MenuPrincipal.swift */,
+				C87C1A6325F095EA00315BED /* Lugar.swift */,
+				C87C1A6825F0972E00315BED /* Categoria.swift */,
+				C8EA37D225F1F68E00B94333 /* LugaresCategoria.swift */,
+				C8111AC825F34BA200925CB7 /* Video.swift */,
+				C8D0BF6225F452590006A9D9 /* Evento.swift */,
+				C86B828A25F81C0900C9A00A /* MiRecorrido.swift */,
+				C86B829425F83E9A00C9A00A /* MenuPerfil.swift */,
+				C806F31F25FB14620081A23C /* Notificacion.swift */,
+			);
+			path = modelos;
+			sourceTree = "<group>";
+		};
+		C8B6383225F7224400255568 /* Lugares */ = {
+			isa = PBXGroup;
+			children = (
+				C8B6383925F723AA00255568 /* DetalleLugarViewController.swift */,
+			);
+			path = Lugares;
+			sourceTree = "<group>";
+		};
+		C8D0BF5425F4503B0006A9D9 /* Eventos */ = {
+			isa = PBXGroup;
+			children = (
+				C8D0BF5825F4510A0006A9D9 /* EventosViewController.swift */,
+				C8D0BF5D25F451B80006A9D9 /* EventoTableViewCell.swift */,
+				C8D0BF6725F462030006A9D9 /* EventoViewController.swift */,
+			);
+			name = Eventos;
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		C8F7E07525E5FBFB00BF9A45 /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				C8F7E07925E5FC8B00BF9A45 /* PerfilViewController.swift */,
+				C86B829925F8400000C9A00A /* PerfilTableViewCell.swift */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
+		E9067E495B237DC3F91A3AD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525BA8F4DCC8D5D2A9677341 /* Pods-San Salvador Historico.debug.xcconfig */,
+				AD4C2C78F0706B2D85A17CF6 /* Pods-San Salvador Historico.release.xcconfig */,
+				BDFAEF98725BFD095578ABA2 /* Pods-San Salvador Historico-San Salvador HistoricoUITests.debug.xcconfig */,
+				A1A89C1FFDFAB1A5A0F752FC /* Pods-San Salvador Historico-San Salvador HistoricoUITests.release.xcconfig */,
+				FBD4E6B11EEA43DB6D1FBF38 /* Pods-San Salvador HistoricoTests.debug.xcconfig */,
+				02E520FB1A0B1687DCE17D2D /* Pods-San Salvador HistoricoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +413,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5398B1B02581BB0100F1AD4D /* Build configuration list for PBXNativeTarget "San Salvador Historico" */;
 			buildPhases = (
+				181FA947EDB7B57B0B042B12 /* [CP] Check Pods Manifest.lock */,
 				5398B1822581BAD000F1AD4D /* Sources */,
 				5398B1832581BAD000F1AD4D /* Frameworks */,
 				5398B1842581BAD000F1AD4D /* Resources */,
+				23D16ECF61989CEFF2F10802 /* [CP] Embed Pods Frameworks */,
+				778FDD3FBC641F722DD84958 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +433,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5398B1B32581BB0100F1AD4D /* Build configuration list for PBXNativeTarget "San Salvador HistoricoTests" */;
 			buildPhases = (
+				E1D3F1A9221C7B159A9BDC34 /* [CP] Check Pods Manifest.lock */,
 				5398B1982581BB0100F1AD4D /* Sources */,
 				5398B1992581BB0100F1AD4D /* Frameworks */,
 				5398B19A2581BB0100F1AD4D /* Resources */,
@@ -170,9 +452,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5398B1B62581BB0100F1AD4D /* Build configuration list for PBXNativeTarget "San Salvador HistoricoUITests" */;
 			buildPhases = (
+				FD31D32050C396C6E2D721E2 /* [CP] Check Pods Manifest.lock */,
 				5398B1A32581BB0100F1AD4D /* Sources */,
 				5398B1A42581BB0100F1AD4D /* Frameworks */,
 				5398B1A52581BB0100F1AD4D /* Resources */,
+				7A33E3B64272374393378323 /* [CP] Embed Pods Frameworks */,
+				9F13E79A86DF6101CAA11396 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +517,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8470BB425BBC0E900AC626A /* OpenSans-Light.ttf in Resources */,
 				5398B1962581BAFE00F1AD4D /* LaunchScreen.storyboard in Resources */,
+				C8111AD425F3532900925CB7 /* marker.json in Resources */,
+				C8470BB225BBC0E900AC626A /* OpenSans-Regular.ttf in Resources */,
+				C8470BB025BBC0E900AC626A /* OpenSans-SemiboldItalic.ttf in Resources */,
+				C8111AD225F3532900925CB7 /* calendar.json in Resources */,
 				5398B1932581BAFD00F1AD4D /* Assets.xcassets in Resources */,
+				C8470BAB25BBC0E900AC626A /* OpenSans-Bold.ttf in Resources */,
+				C8470BAE25BBC0E900AC626A /* MontserratAlternates-Regular.otf in Resources */,
+				C8470BAC25BBC0E900AC626A /* Nexa Bold.otf in Resources */,
+				C874BBE225FFDAD600BB0811 /* GoogleService-Info.plist in Resources */,
+				C8470BB125BBC0E900AC626A /* MyriadPro-Regular.otf in Resources */,
+				C8470BAF25BBC0E900AC626A /* Nexa Regular.otf in Resources */,
+				C8111AD325F3532900925CB7 /* recorrido360.json in Resources */,
 				5398B1912581BAD100F1AD4D /* Main.storyboard in Resources */,
+				C8470BAD25BBC0E900AC626A /* Nexa Light.otf in Resources */,
+				C8470BB325BBC0E900AC626A /* Polly-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +553,187 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		181FA947EDB7B57B0B042B12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-San Salvador Historico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23D16ECF61989CEFF2F10802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		778FDD3FBC641F722DD84958 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico/Pods-San Salvador Historico-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A33E3B64272374393378323 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F13E79A86DF6101CAA11396 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-San Salvador Historico-San Salvador HistoricoUITests/Pods-San Salvador Historico-San Salvador HistoricoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D3F1A9221C7B159A9BDC34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-San Salvador HistoricoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD31D32050C396C6E2D721E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-San Salvador Historico-San Salvador HistoricoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5398B1822581BAD000F1AD4D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C886631825AAA4930055F396 /* MenuPrincipal.swift in Sources */,
+				C8111AC725F34A8300925CB7 /* Recorrido360TableViewCell.swift in Sources */,
+				C8D0BF6325F452590006A9D9 /* Evento.swift in Sources */,
+				C886632225AAAA7C0055F396 /* MenuCollectionViewCell.swift in Sources */,
+				C86B828425F81B4F00C9A00A /* MisRecorridosViewController.swift in Sources */,
+				C878541A25FC6F24008F2246 /* WebRecorridoViewController.swift in Sources */,
+				C87C1A6425F095EA00315BED /* Lugar.swift in Sources */,
+				C86B82A325F875D600C9A00A /* DatosPersonalesViewController.swift in Sources */,
+				C8EA37D325F1F68F00B94333 /* LugaresCategoria.swift in Sources */,
+				C8D0BF5925F4510A0006A9D9 /* EventosViewController.swift in Sources */,
+				C8B6383A25F723AA00255568 /* DetalleLugarViewController.swift in Sources */,
+				C842ED1C25BFB70B00233211 /* RegistroViewController.swift in Sources */,
+				C87C1A6E25F09A3E00315BED /* Constantes.swift in Sources */,
+				C86B829025F81F5100C9A00A /* MisRecorridosCollectionViewCell.swift in Sources */,
+				C8470BB925BBC43A00AC626A /* SSHistoricoViewController.swift in Sources */,
+				C86B829525F83E9A00C9A00A /* MenuPerfil.swift in Sources */,
+				C89B86BE2605AAC600D24389 /* EmpezarViewController.swift in Sources */,
+				C86B829A25F8400000C9A00A /* PerfilTableViewCell.swift in Sources */,
 				5398B18E2581BAD000F1AD4D /* ViewController.swift in Sources */,
+				C806F31625FB0F580081A23C /* NotificacionesViewController.swift in Sources */,
+				C81D4DE726CE1BAB000E813F /* IniciarSesionViewController.swift in Sources */,
+				C8F7E07A25E5FC8B00BF9A45 /* PerfilViewController.swift in Sources */,
+				C89F324A25EF3D61002F6B73 /* MapViewController.swift in Sources */,
+				C8D0BF6825F462040006A9D9 /* EventoViewController.swift in Sources */,
+				C81D4DEF26CE2379000E813F /* LoginViewController.swift in Sources */,
+				C87C1A6925F0972E00315BED /* Categoria.swift in Sources */,
+				C86B828B25F81C0900C9A00A /* MiRecorrido.swift in Sources */,
 				5398B18A2581BAD000F1AD4D /* AppDelegate.swift in Sources */,
+				C886631D25AAA58B0055F396 /* MenuPrincipalViewController.swift in Sources */,
+				C8111AC925F34BA200925CB7 /* Video.swift in Sources */,
+				C8D0BF5E25F451B80006A9D9 /* EventoTableViewCell.swift in Sources */,
+				C842ED1725BFAA1B00233211 /* LanguageSystem.swift in Sources */,
+				C806F31B25FB0F7A0081A23C /* NotificacionTableViewCell.swift in Sources */,
+				C8718D7425FD42400056D3FC /* MisRecorridosDetalleTableViewCell.swift in Sources */,
+				C8111ABF25F349FA00925CB7 /* Recorrido360ViewController.swift in Sources */,
+				C86B82A825F87EAF00C9A00A /* TermServViewController.swift in Sources */,
 				5398B18C2581BAD000F1AD4D /* SceneDelegate.swift in Sources */,
+				C8718D6F25FD41AE0056D3FC /* MisRecorridosDetalleViewController.swift in Sources */,
+				C806F32025FB14620081A23C /* Notificacion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +838,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -420,6 +893,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -432,16 +906,23 @@
 		};
 		5398B1B12581BB0100F1AD4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525BA8F4DCC8D5D2A9677341 /* Pods-San Salvador Historico.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "San Salvador Historico/San Salvador Historico.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = 6ZPA3B7MSU;
 				INFOPLIST_FILE = "San Salvador Historico/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "sv.gob.amss.San-Salvador-Historico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -449,16 +930,23 @@
 		};
 		5398B1B22581BB0100F1AD4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4C2C78F0706B2D85A17CF6 /* Pods-San Salvador Historico.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "San Salvador Historico/San Salvador Historico.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = 6ZPA3B7MSU;
 				INFOPLIST_FILE = "San Salvador Historico/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "sv.gob.amss.San-Salvador-Historico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -466,6 +954,7 @@
 		};
 		5398B1B42581BB0100F1AD4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD4E6B11EEA43DB6D1FBF38 /* Pods-San Salvador HistoricoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +976,7 @@
 		};
 		5398B1B52581BB0100F1AD4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02E520FB1A0B1687DCE17D2D /* Pods-San Salvador HistoricoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +998,7 @@
 		};
 		5398B1B72581BB0100F1AD4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFAEF98725BFD095578ABA2 /* Pods-San Salvador Historico-San Salvador HistoricoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +1018,7 @@
 		};
 		5398B1B82581BB0100F1AD4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A89C1FFDFAB1A5A0F752FC /* Pods-San Salvador Historico-San Salvador HistoricoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
